@@ -10,3 +10,11 @@ public:
 };
 
 
+class list {
+    Node *START;
+
+    public:
+    list() {
+        START = NULL;
+    }
+}
