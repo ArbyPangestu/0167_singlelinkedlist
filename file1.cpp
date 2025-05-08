@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <string.h>
 using namespace std;
 
 class Node
@@ -9,12 +9,20 @@ public:
     Node *next;
 };
 
-
-class list {
+class List
+{
     Node *START;
 
-    public:
-    list() {
+public:
+    List()
+    {
         START = NULL;
     }
-}
+
+    void addNode()
+    {
+        int nim;
+        cout << "\nMasukkan Nomor Mahasiswa: ";
+        cin >> nim;
+
+    }
